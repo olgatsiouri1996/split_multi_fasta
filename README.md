@@ -1,11 +1,12 @@
 # Split Multi Fasta File into Individual Files
 
 Splitting one multi fasta file into multiple files with only one sequence each using the sequence IDs as file names.
-
+## Installation
+1. python 3.8 or later
+2. Gooey `conda install -c conda-forge gooey`
 ## Usage
-```
-python split_multi_fasta.py /path/to/fasta/file
-```
-## Example
+The following picture shows the input parameter region of the GUI:
 
-For testing purpose, there is a file in example folder with name test.fasta which has 4 sequences. For your better understanding, you can use test.fasta to know how this tool works.
+
+
+
