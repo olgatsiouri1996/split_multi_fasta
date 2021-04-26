@@ -3,7 +3,7 @@
 Splitting one multi fasta file into multiple files with only one sequence each using the sequence IDs as file names.
 ## Installation
 1. python 3.8 or later
-2. Gooey `conda install -c conda-forge gooey`
+2. Gooey: `conda install -c conda-forge gooey`
 ## Usage
 The following picture shows the input parameter region of the GUI:
 
