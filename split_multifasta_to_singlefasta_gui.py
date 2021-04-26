@@ -3,7 +3,7 @@ from gooey import *
 import os
 import sys
 # import arguments
-@Gooey(required_cols=3, program_name='codon optimize cds', header_bg_color= '#DCDCDC', terminal_font_color= '#DCDCDC', terminal_panel_color= '#DCDCDC')
+@Gooey(required_cols=2, program_name='codon optimize cds', header_bg_color= '#DCDCDC', terminal_font_color= '#DCDCDC', terminal_panel_color= '#DCDCDC')
 def main(): 
     ap = GooeyParser(description="Split multi fasta file into individual files using sequence ids as their file names")
     ap.add_argument("-m", "--multifasta", widget='FileChooser', help="Input multi fasta file")
