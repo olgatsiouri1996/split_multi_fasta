@@ -6,6 +6,7 @@ Splitting one multi fasta file into multiple files with only one sequence each u
 2. Gooey `conda install -c conda-forge gooey`
 ## Usage
 The following picture shows the input parameter region of the GUI:
+
 ![](https://github.com/olgatsiouri1996/split_multi_fasta/blob/master/GUI.png)
 
 
